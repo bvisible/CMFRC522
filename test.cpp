@@ -5,7 +5,7 @@
 // Copyright   : 2021
 // Description : Test sample using CMFRC522 class : detect the presence of a new card
 //               and print its serial number
-//               To compile this program, use g++ sample1.cpp -lpigpio -lpthread
+//               To compile this program, use g++ test.cpp -lpigpio -lpthread
 //============================================================================
 
 #include "CMFRC522.h"
