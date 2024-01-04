@@ -1967,7 +1967,7 @@ CMFRC522::StatusCode CMFRC522::isNewCardPresent() {
 
     status = RC522_Request(PICC_CMD_REQA, _id);
     if (status == STATUS_OK) {
-        std::cout<<"yep...."<<std::endl;
+        //std::cout<<"yep...."<<std::endl;
         status = RC522_Anticoll(_id);
     }
     RC522_Halt();
@@ -2079,7 +2079,7 @@ CMFRC522::StatusCode CMFRC522::RC522_ToCard(uint8_t command, uint8_t* sendData, 
 
             }
         } else {
-            printf("pb");
+            //printf("pb");
             status = STATUS_ERROR;
         }
     }
